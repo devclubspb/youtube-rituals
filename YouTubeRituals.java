@@ -9,8 +9,7 @@ public class YouTubeRituals {
         // Для текущего видео
         var video = channel.getCurrentVideo();
         // Поставить на видео лайк или дизлайк
-        viewer.like(video);
-//        viewer.dislike(video);
+        viewer.like(video); // viewer.dislike(video);
         // Оставить под видео комментарий с вопросом или фидбеком
         viewer.commentOn(video, "Thanks for the interesting video!");
         // От автора видео
